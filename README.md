@@ -5,9 +5,7 @@ Code for controlling the Open Lab Monitor device, the development and goals and 
 
 The code consists of Arduino code to be loaded on an Arduino-based sensor platform, as well as a Processing and Python interface for interacting with the platform (e.g. plotting sensor values, downloading data as a CSV file). 
 
-### Python Code
-
-###Arduino Code
+### Notes on the Arduino Code
 
 Non-standard Arduino libraries required:
 
