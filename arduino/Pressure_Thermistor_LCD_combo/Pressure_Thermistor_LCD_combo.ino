@@ -34,6 +34,7 @@ int TempPin = 5;         // Analog Temp measure (Requires 5V)
 //Defining the Pressure Variables
 float pressureVout = 0;  // variable to store the voltage from Pressure Sensor
 float pressure;          // Variable to store the pressure value in kPa
+float pressureATM;       // Variable to store the pressure value in atm
 float Vin = 5.0;         // Defining the input volate as 5V
 
 //Defining the temperature variables
@@ -64,9 +65,9 @@ void loop()
   
   // read the temp and pressure values
   pressureVout = (analogRead(PressurePin)/1024.0)*Vin;    // read the input pin (scaled to the volatge input)
-  pressure=((pressureVout/5.0)+.04)/.004;                 // scaling in kPa from data sheet
-  float pressureATM=pressure/101.325;                     // convert to atm
-  double temperature=firstThermistor.readTemperature();
+  pressure     = ((pressureVout/5.0)+.04)/0.004;          // scaling in kPa from data sheet
+  pressureATM  = pressure/101.325;                        // convert to atm
+  temperature  = thermistor1.readTemperature();           // get temperature in units of celcius 
   
  
   // display on the LCD
@@ -88,7 +89,7 @@ void loop()
 void printUpdateYAML() {
   //Serial output (in YAML format)
   Serial.println("---");
-  Serial.print("pressure_ATM: ");
+  Serial.print("pressure_atm: ");
   Serial.println(pressureATM,3);
   Serial.print("temperature_C: ");
   Serial.println(temperature,3);
