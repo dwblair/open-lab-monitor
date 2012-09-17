@@ -9,8 +9,9 @@ The code consists of Arduino code to be loaded on an Arduino-based sensor platfo
 
 ### Notes on the Arduino Code
 
-Non-standard Arduino libraries required:
+Some non-standard Arduino libraries are required, frozen versions of which can be found [here](https://github.com/cversek/umass-physics).  Copy (or better yet, link) the folders under "libraries" to your "libraries" folder for your Arduino sketchbook:
 
-* ThermistorLib (cversek's library for reading thermistor values) -- In order to acquire this library, download cversek's entire umass-physics repository [here](https://github.com/cversek/umass-physics), then navigate into "teis/arduino/", and copy the entire "ThermistorLib" folder you find there into your the "libraries" folder for your Arduino sketchbook
-
+* ThermistorLib (cversek's library for reading thermistor values) -- latest version found [here](https://github.com/cversek/umass-physics).
+                                                                  
+* SerialCommand (originally Steven Cogswell's slick library for parsing commands over serial)  -- check out his surly [blog post](http://husks.wordpress.com/2011/05/23/a-minimal-arduino-library-for-processing-serial-commands/); we are using the new and improved version hosted on github [here](https://github.com/kroimon/Arduino-SerialCommand)
 
