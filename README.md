@@ -9,7 +9,7 @@ The code consists of Arduino code to be loaded on an Arduino-based sensor platfo
 
 ### Notes on the Arduino Code
 
-Some non-standard Arduino libraries are required, frozen versions of which can be found [here](https://github.com/cversek/umass-physics).  Copy (or better yet, link) the folders under "libraries" to your "libraries" folder for your Arduino sketchbook:
+Some non-standard Arduino libraries are required, frozen versions of which can be found [here](https://github.com/dwblair/open-lab-monitor/tree/master/arduino/libraries).  Copy (or better yet, link) the folders under "libraries" to your "libraries" folder for your Arduino sketchbook:
 
 * ThermistorLib (cversek's library for reading thermistor values) -- latest version found [here](https://github.com/cversek/umass-physics).
                                                                   
