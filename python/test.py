@@ -1,1 +1,1 @@
-python is awesome
+print "python is awesome"
