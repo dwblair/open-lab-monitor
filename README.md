@@ -7,6 +7,9 @@ An open hardware microcontroller device for use in research and teaching laborat
 
 ### PCB
 
+- Nice reference for MAGJACK options:
+http://mbed.org/cookbook/Ethernet-RJ45 
+
 ### Code
 
 Code for controlling the Open Lab Monitor device, the development and goals and applications of which are documented [here](https://github.com/Pioneer-Valley-Open-Science/pioneer-valley-open-science.github.com/issues/8).
