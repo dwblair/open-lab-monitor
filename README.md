@@ -9,7 +9,7 @@ An open hardware microcontroller device for use in research and teaching laborat
 
 - Nice reference for MAGJACK options:
 http://mbed.org/cookbook/Ethernet-RJ45 
-- Nice reference for uSD breakoutschematic, adafruit:
+- Nice reference for uSD breakout schematic, adafruit:
 https://raw.github.com/adafruit/MicroSD-breakout-board/master/usdbreakout.png
 
 ### Code
