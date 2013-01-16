@@ -1,0 +1,69 @@
+Loading schematic [/home/dwblair/skeleton-geda-project/OLM.sch]
+Loading schematic [/home/dwblair/skeleton-geda-project/OLM.sch]
+=====================================================
+gsch2pcb backend configuration:
+
+   ----------------------------------------
+   Variables which may be changed in gafrc:
+   ----------------------------------------
+   gsch2pcb:pcb-m4-command:    /usr/bin/m4
+   gsch2pcb:pcb-m4-dir:        /usr/share/pcb/m4
+   gsch2pcb:pcb-m4-confdir:    /etc/pcb
+   gsch2pcb:pcb-m4-path:       /usr/share/pcb/m4  /etc/pcb  $HOME/.pcb  .
+   gsch2pcb:m4-command-line:   /usr/bin/m4 -d  -I/usr/share/pcb/m4 -I/etc/pcb -I$HOME/.pcb -I. /usr/share/pcb/m4/common.m4 - >> OLM.new.pcb
+
+   ---------------------------------------------------
+   Variables which may be changed in the project file:
+   ---------------------------------------------------
+   gsch2pcb:use-m4:            no
+
+=====================================================
+Skipping the m4 processor for pcb footprints
+Loading schematic [/home/dwblair/skeleton-geda-project/OLM.sch]
+Reading project file: project
+    schematics "OLM.sch"
+    output-name "OLM"
+    skip-m4 ""
+Processing PCBLIBPATH="/usr/share/pcb/pcblib-newlib:/usr/share/pcb/newlib"
+Adding /usr/share/pcb/pcblib-newlib to the newlib search path
+Adding /usr/share/pcb/newlib to the newlib search path
+Running command:
+	gnetlist -g pcbpins -o OLM.cmd OLM.sch
+--------
+Running command:
+	gnetlist -g PCB -o OLM.net OLM.sch
+--------
+Default m4-pcbdir: /usr/share/pcb/pcb/m4
+--------
+gnet-gsch2pcb-tmp.scm override file:
+    (define m4-pcbdir "/usr/share/pcb/pcb/m4")
+    (define gsch2pcb:use-m4 #f)
+--------
+Running command:
+	gnetlist -g gsch2pcb -o OLM.new.pcb -m gnet-gsch2pcb-tmp.scm OLM.sch
+--------
+--------
+D1: need new file element for footprint  1206 (value=unknown)
+	Found: packages/newlib/1206.fp
+D1: added new file element for footprint 1206 (value=unknown)
+----
+
+
+----------------------------------
+Done processing.  Work performed:
+1 file elements and 0 m4 elements added to OLM.new.pcb.
+
+
+Next steps:
+1.  Run pcb on your file OLM.pcb.
+2.  From within PCB, select "File -> Load layout data to paste buffer"
+    and select OLM.new.pcb to load the new footprints into your existing layout.
+3.  From within PCB, select "File -> Load netlist file" and select 
+    OLM.net to load the updated netlist.
+
+4.  From within PCB, enter
+
+           :ExecuteFile(OLM.cmd)
+
+    to update the pin names of all footprints.
+
