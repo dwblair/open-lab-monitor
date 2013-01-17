@@ -734,39 +734,3 @@ footprint=0603
 }
 C 53800 18600 1 0 0 gnd-1.sym
 C 57700 18300 1 0 0 gnd-1.sym
-C 70300 20000 1 0 0 ldo_LP2985_33DBVR.sym
-{
-T 72100 21800 5 10 1 1 0 6 1
-refdes=U?
-T 70700 22000 5 10 0 0 0 0 1
-device=LP2985_33DBVR
-}
-C 68300 19900 1 270 0 capacitor-1.sym
-{
-T 69000 19700 5 10 0 0 270 0 1
-device=CAPACITOR
-T 68800 19700 5 10 1 1 270 0 1
-refdes=C9
-T 69200 19700 5 10 0 0 270 0 1
-symversion=0.1
-T 68700 19200 5 10 1 1 0 0 1
-value=100n
-T 68300 19900 5 10 1 1 0 0 1
-footprint=0603
-}
-C 69700 19600 1 0 0 gnd-1.sym
-C 69500 22200 1 0 0 5V-plus-1.sym
-C 73900 21000 1 270 0 capacitor-1.sym
-{
-T 74600 20800 5 10 0 0 270 0 1
-device=CAPACITOR
-T 74400 20800 5 10 1 1 270 0 1
-refdes=C9
-T 74800 20800 5 10 0 0 270 0 1
-symversion=0.1
-T 74300 20300 5 10 1 1 0 0 1
-value=100n
-T 73900 21000 5 10 1 1 0 0 1
-footprint=0603
-}
-C 74000 19500 1 0 0 gnd-1.sym
