@@ -22,11 +22,11 @@ pinwidthhorizontal	400
 # if you have a device with slots, you'll have to use slot= and slotdef=						
 # use comment= if there are special information you want to add						
 version	20060113 1					
-name	LP2985
-device	LP2985_33DBVR					
+name	Micro USB
+device	Micro USB					
 refdes	U?					
-footprint						
-description		Low-dropout voltage regulator				
+footprint	microusb				
+description						
 documentation						
 author						
 numslots	0					
@@ -55,8 +55,8 @@ use-license
 #	"if you want to write a ""\"" use ""\\"" as escape sequence"					
 #						
 #pinnr	seq	type	style	posit.	net	label
-1		pwr	line	l		IN
-2		pwr	line	b		GND
-3		in	line	l		ON/OFF
-4		in	line	l		NC/FB
-5		pwr	line	r		OUT
+1		pwr	line	r	P1	VBUS
+2		io	line	r	P2	D-
+3		io	line	r	P3	D+
+4		io	line	r	P4	ID
+5		pwr	line	r	P5	GND
