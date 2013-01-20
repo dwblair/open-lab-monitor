@@ -22,9 +22,9 @@ pinwidthhorizontal	400
 # if you have a device with slots	 you'll have to use slot= and slotdef=								
 # use comment= if there are special information you want to add									
 version	20060113 1								
-name	microSD								
-device									
-refdes	U?								
+name	MCP7386x								
+device	MCP7386x								
+refdes	J?								
 footprint									
 description									
 documentation									
@@ -55,15 +55,19 @@ use-license
 #	"if you want to write a ""\"" use ""\\"" as escape sequence"								
 #									
 #pinnr	seq	type	style	posit.	net	label			
-1		io	line	l		NC*			
-2		io	line	l		CS			
-3		io	line	l		DI			
-4		io	line	l		VCC			
-5		io	line	l		SCK			
-6		io	line	l		GND			
-7		io	line	l		DO			
-8		io	line	l		RSV			
-9		io	line	l		CD1			
-10		io	line	l		CD2			
-11		io	line	r		SHIELD1			
-12		io	line	r		SHIELD2			
+1		io	line	l		STAT2			
+2		io	line	l		STAT1			
+3		io	line	l		VSET			
+4		io	line	t		VDD			
+5		io	line	t		VDD1			
+6		io	line	b		VSS			
+7		io	line	l		PROG			
+8		io	line	r		THREF			
+9		io	line	r		THERM			
+10		io	line	r		TIMER			
+11		io	line	b		VSS2			
+12		io	line	r		VBAT1			
+13		io	line	r		VBAT2			
+14		io	line	r		VBAT3			
+15		io	line	b		VSS1			
+16		io	line	l		EN			
