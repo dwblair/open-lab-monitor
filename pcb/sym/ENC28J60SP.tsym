@@ -25,7 +25,7 @@ version	20060113 1
 name	ENC28J60
 device	ENC28J60
 refdes	U?
-footprint	SOIC8
+footprint	TSSOP28
 description  Ethernet controller
 documentation
 author

@@ -25,7 +25,7 @@ version	20060113 1
 name	LP2985
 device	LP2985_33DBVR					
 refdes	U?					
-footprint						
+footprint	SOT23-5				
 description		Low-dropout voltage regulator				
 documentation						
 author						
