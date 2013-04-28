@@ -11390,7 +11390,7 @@ Source: www.kingbright.com</description>
 <sheets>
 <sheet>
 <plain>
-<text x="-96.52" y="109.22" size="3.81" layer="91">UNO-Compatible</text>
+<text x="-104.14" y="68.58" size="3.81" layer="91">UNO-Compatible</text>
 <text x="17.78" y="71.12" size="3.81" layer="91">Connectors</text>
 <text x="-78.74" y="-109.22" size="3.81" layer="91">Power</text>
 </plain>
