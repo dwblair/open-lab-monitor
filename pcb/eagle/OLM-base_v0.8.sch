@@ -14269,7 +14269,6 @@ Mating wall wart : TOL-00298 (and others)</description>
 <part name="J1" library="SparkFun" deviceset="MAGJACK" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="GND1" library="SparkFun" deviceset="GND" device=""/>
-<part name="GND5" library="SparkFun" deviceset="GND" device=""/>
 <part name="J2" library="SparkFun-Connectors" deviceset="POWER_JACK" device="PTH"/>
 </parts>
 <sheets>
@@ -14377,7 +14376,6 @@ Mating wall wart : TOL-00298 (and others)</description>
 <instance part="J1" gate="G$1" x="127" y="-45.72"/>
 <instance part="GND4" gate="1" x="124.46" y="-71.12"/>
 <instance part="GND1" gate="1" x="147.32" y="-53.34" rot="R90"/>
-<instance part="GND5" gate="1" x="147.32" y="-43.18" rot="R90"/>
 <instance part="J2" gate="G$1" x="-12.7" y="-68.58"/>
 </instances>
 <busses>
@@ -14512,6 +14510,7 @@ Mating wall wart : TOL-00298 (and others)</description>
 <pinref part="GND4" gate="1" pin="GND"/>
 <pinref part="J1" gate="G$1" pin="GND1"/>
 <pinref part="J1" gate="G$1" pin="GND2"/>
+<junction x="124.46" y="-63.5"/>
 </segment>
 <segment>
 <wire x1="144.78" y1="-53.34" x2="142.24" y2="-53.34" width="0.1524" layer="91"/>
@@ -14527,6 +14526,11 @@ Mating wall wart : TOL-00298 (and others)</description>
 <wire x1="-10.16" y1="-66.04" x2="5.08" y2="-66.04" width="0.1524" layer="91"/>
 <junction x="5.08" y="-66.04"/>
 <label x="7.62" y="-73.66" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="YLED-"/>
+<wire x1="142.24" y1="-43.18" x2="147.32" y2="-43.18" width="0.1524" layer="91"/>
+<label x="147.32" y="-43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$19" class="0">
@@ -15222,13 +15226,6 @@ Mating wall wart : TOL-00298 (and others)</description>
 <wire x1="111.76" y1="-35.56" x2="93.98" y2="-35.56" width="0.1524" layer="91"/>
 <label x="93.98" y="-35.56" size="1.778" layer="95"/>
 <pinref part="J1" gate="G$1" pin="TD+"/>
-</segment>
-</net>
-<net name="N$36" class="0">
-<segment>
-<wire x1="144.78" y1="-43.18" x2="142.24" y2="-43.18" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="YLED-"/>
-<pinref part="GND5" gate="1" pin="GND"/>
 </segment>
 </net>
 </nets>

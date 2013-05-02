@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.001" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -128,28 +128,28 @@
 <hole x="88.7476" y="52.02681875" drill="3.2"/>
 <hole x="88.7476" y="4.52881875" drill="3.2"/>
 <hole x="5.9436" y="4.52881875" drill="3.2"/>
-<wire x1="46.77918125" y1="16.697959375" x2="56.17718125" y2="16.697959375" width="0.254" layer="21"/>
-<wire x1="56.17718125" y1="16.697959375" x2="56.15178125" y2="31.760159375" width="0.254" layer="21"/>
-<wire x1="56.15178125" y1="31.760159375" x2="46.77918125" y2="31.760159375" width="0.254" layer="21"/>
-<wire x1="46.77918125" y1="31.760159375" x2="46.77918125" y2="16.697959375" width="0.254" layer="21"/>
-<text x="51.78298125" y="19.618959375" size="0.6096" layer="21">SCK/D13</text>
-<text x="51.57978125" y="21.803359375" size="0.6096" layer="21">MOSI/D11</text>
-<text x="51.80838125" y="23.784559375" size="0.6096" layer="21">MISO/D12</text>
-<text x="52.29098125" y="26.248359375" size="0.6096" layer="21">SCL/A5</text>
-<text x="52.21478125" y="28.559759375" size="0.6096" layer="21">SDA/A4</text>
-<text x="48.15078125" y="21.523959375" size="0.6096" layer="21">AIO</text>
-<text x="48.02378125" y="23.733759375" size="0.6096" layer="21">GND</text>
-<text x="47.66818125" y="26.299159375" size="0.6096" layer="21">DIO/PWM</text>
-<text x="47.94758125" y="28.458159375" size="0.6096" layer="21">3.3V</text>
-<text x="48.09998125" y="19.466559375" size="0.6096" layer="21">DIO</text>
-<wire x1="56.38038125" y1="17.713959375" x2="59.45378125" y2="17.713959375" width="0.254" layer="21"/>
-<wire x1="59.42838125" y1="17.739359375" x2="58.15838125" y2="22.666959375" width="0.254" layer="21"/>
-<wire x1="58.15838125" y1="22.666959375" x2="60.39358125" y2="25.359359375" width="0.254" layer="21"/>
-<wire x1="60.39358125" y1="25.359359375" x2="58.28538125" y2="28.331159375" width="0.254" layer="21"/>
-<wire x1="58.28538125" y1="28.331159375" x2="59.37758125" y2="30.718759375" width="0.254" layer="21"/>
-<wire x1="59.37758125" y1="30.744159375" x2="56.20258125" y2="30.744159375" width="0.254" layer="21"/>
-<text x="58.38698125" y="24.317959375" size="0.6096" layer="21" rot="R90">(cable)</text>
-<text x="49.06518125" y="15.783559375" size="0.6096" layer="21">olm connector</text>
+<wire x1="50.08118125" y1="16.443959375" x2="58.97118125" y2="16.443959375" width="0.254" layer="21"/>
+<wire x1="58.97118125" y1="16.443959375" x2="58.94578125" y2="32.268159375" width="0.254" layer="21"/>
+<wire x1="58.94578125" y1="32.268159375" x2="50.08118125" y2="32.268159375" width="0.254" layer="21"/>
+<wire x1="50.08118125" y1="32.268159375" x2="50.08118125" y2="16.443959375" width="0.254" layer="21"/>
+<text x="54.70398125" y="19.695159375" size="0.6096" layer="21">SCK/D13</text>
+<text x="54.62778125" y="21.803359375" size="0.6096" layer="21">MOSI/D11</text>
+<text x="54.60238125" y="24.292559375" size="0.6096" layer="21">MISO/D12</text>
+<text x="55.41518125" y="26.553159375" size="0.6096" layer="21">SCL/A5</text>
+<text x="55.00878125" y="28.305759375" size="0.6096" layer="21">SDA/A4</text>
+<text x="50.94478125" y="21.777959375" size="0.6096" layer="21">AIO</text>
+<text x="50.81778125" y="24.241759375" size="0.6096" layer="21">GND</text>
+<text x="50.71618125" y="26.553159375" size="0.6096" layer="21">DIO/PWM</text>
+<text x="50.74158125" y="28.204159375" size="0.6096" layer="21">3.3V</text>
+<text x="50.89398125" y="19.720559375" size="0.6096" layer="21">DIO</text>
+<wire x1="59.17438125" y1="17.713959375" x2="61.99378125" y2="17.713959375" width="0.254" layer="21"/>
+<wire x1="61.96838125" y1="17.739359375" x2="60.19038125" y2="21.904959375" width="0.254" layer="21"/>
+<wire x1="60.19038125" y1="21.904959375" x2="61.66358125" y2="24.851359375" width="0.254" layer="21"/>
+<wire x1="61.66358125" y1="24.851359375" x2="59.80938125" y2="27.823159375" width="0.254" layer="21"/>
+<wire x1="59.80938125" y1="27.823159375" x2="61.91758125" y2="30.464759375" width="0.254" layer="21"/>
+<wire x1="61.91758125" y1="30.744159375" x2="59.25058125" y2="30.744159375" width="0.254" layer="21"/>
+<text x="60.16498125" y="18.475959375" size="0.6096" layer="21" rot="R90">(cable)</text>
+<text x="52.11318125" y="15.275559375" size="0.6096" layer="21">olm connector</text>
 <text x="50.79238125" y="40.396159375" size="1.6764" layer="21">open</text>
 <text x="50.84318125" y="38.440359375" size="1.6764" layer="21">lab</text>
 <text x="50.86858125" y="36.840159375" size="1.6764" layer="21">monitor</text>
@@ -162,13 +162,13 @@
 <text x="20.761959375" y="50.0126" size="0.6096" layer="21">RX</text>
 <text x="22.997159375" y="49.911" size="0.6096" layer="21">DTR</text>
 <text x="34.173159375" y="47.5742" size="0.6096" layer="21">RST</text>
-<text x="29.016959375" y="54.2925" size="0.6096" layer="21">3.3V</text>
-<text x="34.020759375" y="54.2036" size="0.6096" layer="21">GND</text>
-<text x="36.814759375" y="54.1528" size="0.6096" layer="21">PB1</text>
+<text x="28.813759375" y="54.3941" size="0.6096" layer="21">3.3V</text>
+<text x="34.020759375" y="54.4068" size="0.6096" layer="21">GND</text>
+<text x="36.865559375" y="54.3306" size="0.6096" layer="21">PB1</text>
 <text x="33.258759375" y="48.1584" size="0.6096" layer="21" rot="R180">SCK</text>
 <text x="30.794959375" y="48.1584" size="0.6096" layer="21" rot="R180">MISO</text>
 <text x="38.135559375" y="48.1838" size="0.6096" layer="21" rot="R180">PB0</text>
-<text x="31.252159375" y="54.2544" size="0.6096" layer="21">MOSI</text>
+<text x="31.277559375" y="54.4068" size="0.6096" layer="21">MOSI</text>
 </plain>
 <libraries>
 <library name="atmega8">
