@@ -16,12 +16,12 @@
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -155,12 +155,12 @@
 <text x="50.86858125" y="36.840159375" size="1.6764" layer="21">monitor</text>
 <text x="56.93918125" y="39.278559375" size="0.6096" layer="21">v_0.8</text>
 <text x="51.02098125" y="35.087559375" size="0.8128" layer="21">http://pvos.org</text>
-<text x="11.795759375" y="50.419" size="0.6096" layer="21" rot="R180">GND</text>
-<text x="14.462759375" y="50.4444" size="0.6096" layer="21" rot="R180">3.3V</text>
-<text x="15.631159375" y="49.911" size="0.6096" layer="21">5V</text>
-<text x="18.171159375" y="49.911" size="0.6096" layer="21">TX</text>
-<text x="20.761959375" y="50.0126" size="0.6096" layer="21">RX</text>
-<text x="22.997159375" y="49.911" size="0.6096" layer="21">DTR</text>
+<text x="11.313159375" y="50.6476" size="0.6096" layer="21" rot="R180">GND</text>
+<text x="13.776959375" y="50.6476" size="0.6096" layer="21" rot="R180">3.3V</text>
+<text x="15.021559375" y="50.0888" size="0.6096" layer="21">5V</text>
+<text x="17.536159375" y="50.165" size="0.6096" layer="21">TX</text>
+<text x="20.076159375" y="50.165" size="0.6096" layer="21">RX</text>
+<text x="22.336759375" y="50.165" size="0.6096" layer="21">DTR</text>
 <text x="34.173159375" y="47.5742" size="0.6096" layer="21">RST</text>
 <text x="28.813759375" y="54.3941" size="0.6096" layer="21">3.3V</text>
 <text x="34.020759375" y="54.4068" size="0.6096" layer="21">GND</text>
