@@ -16775,9 +16775,9 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <label x="147.32" y="-43.18" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="67.31" y1="-83.82" x2="78.74" y2="-83.82" width="0.1524" layer="91"/>
-<label x="73.66" y="-83.82" size="1.4224" layer="95"/>
-<pinref part="JP2" gate="A" pin="10"/>
+<label x="43.18" y="-76.2" size="1.4224" layer="95"/>
+<pinref part="JP2" gate="A" pin="3"/>
+<wire x1="59.69" y1="-76.2" x2="43.18" y2="-76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$19" class="0">
@@ -17274,9 +17274,9 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <wire x1="-58.42" y1="12.7" x2="-48.26" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<label x="43.18" y="-76.2" size="1.4224" layer="95"/>
-<pinref part="JP2" gate="A" pin="3"/>
-<wire x1="59.69" y1="-76.2" x2="43.18" y2="-76.2" width="0.1524" layer="91"/>
+<wire x1="67.31" y1="-83.82" x2="78.74" y2="-83.82" width="0.1524" layer="91"/>
+<label x="73.66" y="-83.82" size="1.4224" layer="95"/>
+<pinref part="JP2" gate="A" pin="10"/>
 </segment>
 </net>
 <net name="PB1/D9/PWM" class="0">
